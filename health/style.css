@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+#home {
+    background-image: url("banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav {
+    width: 100%;
+    height: 75px;
+    background: skyblue;
+    line-height: 75px;
+    padding-left: 30px;
+    padding-right: -500px;
+    position: fixed;
+    z-index: 1; 
+    color: black;
+}
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+nav .logo p {
+    margin-left: 90px;
+    float: left;
+}
+nav ul {
+    margin-right: 80px;
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.banner-text {
+    text-align: center;
+    color: black;
+    padding-top: 180px;
+}
+.banner-text h1 {
+    font-size: 130px;
+}
+.banner-text p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-btn {
+    margin: 70px auto 0;
+}
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 150px;
+    padding: 12px 0;
+    color: black;
+    border: .5px solid black;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    font-size: 15px;
+}
+.banner-btn a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: skyblue;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span {
+   width: 100%;
+}
+.banner-btn a:hover  {
+    color: black;
+ }
+ #src {
+    background: #48aad4;
+    height: 100vh;
+}
+#src h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.srcbox {
+    font-size: 20px;
+}
+.map {
+    height: 70vh;
+}
+.map iframe {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 100%;
+    border-radius: 10px;
+}
+#app {
+    background: #48aad4;
+    height: 100vh;
+}
+#app h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.details {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+
+.dleft {
+    flex-basis: 40%;
+    padding: 40px 60px;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.dright {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.dleft .frm {
+    flex-basis: 100%;
+    padding: 10px;
+}
+input {
+    width: 100%;
+    margin: 10px 10px;
+    border: none;
+    outline: none;
+}
+.dright .frm1 {
+    flex-basis: 45%;
+    padding: 10px;
+}
+.dright .frm1 textarea {
+    width: 600px;
+    height: 50%;
+    margin: 10px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.dright .frm1 button {
+        outline: none;
+        width: 20%;
+        margin-top: 20px;
+        border: none;
+        border-radius: 30px;
+        height: 35px;
+        font-size: 12px;
+}
+.dright .frm1 label {
+    font-size: 20px;
+}
+.dleft .frm label {
+    font-size: 20px;
+}
+#team {
+    background: #48aad4;
+    height: 100vh;
+}
+#team h1 {
+    padding-top: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+.rev .dright .frm1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.rev .dright .frm1 textarea {
+    width: 600px;
+    height: 90%;
+    margin: 10px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+.rev .dright .frm1 button {
+        outline: none;
+        width: 20%;
+        margin-top: 20px;
+        border: none;
+        border-radius: 30px;
+        height: 35px;
+        font-size: 12px;
+}
+.rev .dright .frm1 label {
+    font-size: 20px;
+}
